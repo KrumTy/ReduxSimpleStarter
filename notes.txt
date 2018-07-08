@@ -1,0 +1,7 @@
+- reducer is a function that returns a piece of the app state
+- combineReducers
+- react, redux, react-redux
+- react container is (smart) component that has direct access to the data from redux
+- actions (user interactions and not only), automatically sent to all reducers 
+- actions return type and payload obj
+- ONLICK-> dispatch action, return type and payload, pass action through all reducers, check and update data accordingly
