@@ -1,0 +1,18 @@
+Day 1
+
+- installed git
+- cloned https://github.com/StephenGrider/ReduxSimpleStarter
+- installed latest node
+- installed es lint
+- installed intellij
+- youtube video api
+
+a react component is a js function that produces html
+jsx (html in js -> react) - babel translates it to plain js via react create element
+when we want to create an instance of a component, wrap it in jssx <App/>
+function component (has no state, is simple js function that returns html) vs class component
+- handling user events (search bar onChange)
+- state, when the state of a component changes, it's rerendered along with its child components
+- controlled input (value set to state)
+- redux is predictable state container for js apps, react is the views
+- app state designed is critical

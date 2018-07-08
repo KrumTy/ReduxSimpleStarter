@@ -1,0 +1,25 @@
+{
+    "parser": "babel-eslint",
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-console": "off",
+        "env": "browser",
+        "react/prop-types": [
+            "enabled",
+            {
+                "ignore": [],
+                "customValidators": "customValidator"
+            }
+        ]
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "env": {
+        "browser": true,
+        "node": true
+    }
+}
