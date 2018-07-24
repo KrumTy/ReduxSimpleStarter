@@ -1,0 +1,4 @@
+- controlled input
+- actions -> middlewares (modify actions) -> reducers
+- ReduxPromise checks action's payload; if it's a promise waits for request to finish
+- never mutate state in reducers; always create a copy
