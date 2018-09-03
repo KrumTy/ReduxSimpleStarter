@@ -1,0 +1,9 @@
+- npm install --save react-router-dom@4.2.2
+- SPA - url - history - react router - react - client
+
+adding new page/section:
+1. add component
+2. add route configuration
+3. add navigation
+4. update component's UI
+5. make action creator(s)
